@@ -6,7 +6,7 @@
 %define	pdir	Sub
 %define	pnam	Override
 Summary:	Sub::Override - Perl extension for easily overriding subroutines
-Summary(pl):	Sub::Override - rozszerzenie Perla do ³atwego przykrywania procedur
+Summary(pl.UTF-8):   Sub::Override - rozszerzenie Perla do Å‚atwego przykrywania procedur
 Name:		perl-Sub-Override
 Version:	0.08
 Release:	1
@@ -33,14 +33,14 @@ little function.
 Sub::Override allows the programmer to simply name the sub to replace
 and to supply a sub to replace it with.
 
-%description -l pl
-Czasem procedura musi zostaæ przykryta. W praktyce autor robi to stale
-dla testów. W szczególno¶ci przy testowaniu u¿ywanie obiektu Mock mo¿e
-byæ nadmiarowe, gdy wszystko co chcemy, to przykryæ jedn± ma³±,
-maleñk± funkcjê.
+%description -l pl.UTF-8
+Czasem procedura musi zostaÄ‡ przykryta. W praktyce autor robi to stale
+dla testÃ³w. W szczegÃ³lnoÅ›ci przy testowaniu uÅ¼ywanie obiektu Mock moÅ¼e
+byÄ‡ nadmiarowe, gdy wszystko co chcemy, to przykryÄ‡ jednÄ… maÅ‚Ä…,
+maleÅ„kÄ… funkcjÄ™.
 
-Sub::Override umo¿liwia programi¶cie prosto nazwaæ funkcjê do
-zast±pienia i dostarczyæ funkcjê do zast±pienia jej.
+Sub::Override umoÅ¼liwia programiÅ›cie prosto nazwaÄ‡ funkcjÄ™ do
+zastÄ…pienia i dostarczyÄ‡ funkcjÄ™ do zastÄ…pienia jej.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
