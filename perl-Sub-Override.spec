@@ -6,7 +6,7 @@
 %define	pdir	Sub
 %define	pnam	Override
 Summary:	Sub::Override - Perl extension for easily overriding subroutines
-Summary(pl.UTF-8):   Sub::Override - rozszerzenie Perla do łatwego przykrywania procedur
+Summary(pl.UTF-8):	Sub::Override - rozszerzenie Perla do łatwego przykrywania procedur
 Name:		perl-Sub-Override
 Version:	0.08
 Release:	1
