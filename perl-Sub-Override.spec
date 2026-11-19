@@ -7,18 +7,18 @@
 Summary:	Sub::Override - Perl extension for easily overriding subroutines
 Summary(pl.UTF-8):	Sub::Override - rozszerzenie Perla do łatwego przykrywania procedur
 Name:		perl-Sub-Override
-Version:	0.09
-Release:	2
+Version:	0.12
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Sub/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6889e2526c0e4f70da157fdf712542d3
+# Source0-md5:	377830b3bc7d7b635c479b943a48ff18
 URL:		http://search.cpan.org/dist/Sub-Override/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-Test-Exception >= 0.15
+BuildRequires:	perl-Test-Fatal >= 0.010
 BuildRequires:	perl-Test-Simple >= 0.47
 %endif
 BuildArch:	noarch
